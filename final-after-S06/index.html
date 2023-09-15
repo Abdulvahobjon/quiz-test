@@ -10,12 +10,11 @@
     <!--<link rel="stylesheet" href="css/icon-font.css">-->
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
-
     <title>English lenguage quiz test</title>
 </head>
 
 <body>
-    <div class="navigation">
+    <div id="home" class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
         <label for="navi-toggle" class="navigation__button">
@@ -26,10 +25,10 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>IELTS</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>SEFR</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>About</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Commid</a></li>
+                <li class="navigation__item"><a href="#home" class="navigation__link"><span>01</span>Bosh Sahifa</a></li>
+                <li class="navigation__item"><a href="#about" class="navigation__link"><span>02</span>Biz haqimizda</a></li>
+                <li class="navigation__item"><a href="#level" class="navigation__link"><span>03</span>Darajalar</a></li>
+                <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>04</span>Testlar</a></li>
             </ul>
         </nav>
     </div>
@@ -49,77 +48,224 @@
         </div>
     </header>
 
- 
 
-    <!--
-        <section class="grid-test">
+    <main>
+        <section class="section-about" id="about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Ingliz tili bo'yicha test
+
+                </h2>
+            </div>
+
             <div class="row">
                 <div class="col-1-of-2">
-                    Col 1 of 2
+                    <h3 class="heading-tertiary u-margin-bottom-small">Daraja qanday o'lchanadi ?</h3>
+                    <p class="paragraph">
+                        Agar ingliz tilidan foydalanish testida olgan bahongiz 65% yoki undan yuqori boʻlsa, bu sizning ingliz tilidagi taxminiy grammatika darajangiz oʻsha test bilan bir xil ekanligini bildiradi.
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">Misol uchun</h3>
+                    <p class="paragraph">
+                        Agar siz bir nechta A2 testini topshirsangiz va baholaringiz 65% yoki undan yuqori bo'lsa, bu sizning taxminiy grammatika darajangiz A2 ekanligini va siz B1 grammatikasida ishlashni boshlashingiz mumkinligini anglatadi.
+                    </p>
+
+                    <a href="#section-tours" class="btn-text">Boshlamoq &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
-                    Col 1 of 2
-                </div>
-            </div>
+                    <div class="composition">
 
-            <div class="row">
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-            </div>
+                        <img 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+                            class="composition__photo composition__photo--p1" src="https://www.englishtestsonline.com/wp-content/uploads/2022/01/english-level-test-intermediate-b1_201.png">
 
-            <div class="row">
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-2-of-3">
-                    Col 2 of 3
-                </div>
-            </div>
+                        <img 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+                            class="composition__photo composition__photo--p2" src="https://www.englishtestsonline.com/wp-content/uploads/2022/01/english-level-test-elementary-a1_199.png">
 
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-            </div>
+                        <img 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
+                            class="composition__photo composition__photo--p3" src="https://www.englishtestsonline.com/wp-content/uploads/2022/01/english-level-test-advanced-c1_203.png">
 
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-2-of-4">
-                    Col 2 of 4
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-3-of-4">
-                    Col 3 of 4
+                        <!--
+                        <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                        <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                        <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                        -->
+                    </div>
                 </div>
             </div>
         </section>
-        -->
+
+        <section class="section-features" id="level">
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-world"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Beginner</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Elementry</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-map"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Intermidit</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Advanced</h3>
+                        <p class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tours" id="section-tours">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                  O'zingizga mos darajani tanlang 
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">Beginner</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>30 ta test</li>
+                                    <li>30 min </li>
+                                    <li>Beginner</li>
+                                    <li>A1-A2</li>
+                                    <li>Test Bazasi 100+ test</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Online</p>
+                                    <p class="card__price-value"></p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Boshlamoq</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">Beginner</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>30 ta test</li>
+                                    <li>30 min </li>
+                                    <li>Beginner</li>
+                                    <li>A1-A2</li>
+                                    <li>Test Bazasi 100+ test</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Online</p>
+                                    <p class="card__price-value"></p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Boshlamoq</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">Beginner</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>30 ta test</li>
+                                    <li>30 min </li>
+                                    <li>Beginner</li>
+                                    <li>A1-A2</li>
+                                    <li>Test Bazasi 100+ test</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Online</p>
+                                    <p class="card__price-value"></p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Boshlamoq</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+      
+      
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-white.png 1x, img/logo-white.png 2x"
+                    media="(max-width: 37.5em)">
+                <img  alt="Full logo"
+                    src="img/logo-white.png">
+            </picture>
+
+
+
+        </div>
+       
+    </footer>
+
+   
+
 
 </body>
 
