@@ -152,6 +152,7 @@ body{
 }
 
 .quiz_box header{
+    overflow: hidden;
     position: relative;
     z-index: 2;
     height: 70px;
